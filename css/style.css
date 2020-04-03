@@ -1,0 +1,160 @@
+ul.navbar-nav {
+	justify-content: space-around;
+	width: 100%;
+}
+
+div.container {
+	padding-top: 3rem;
+    margin-top: 3rem;
+}
+
+div.section {
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+img#home_logo {
+	width:100%;
+	max-width:300px;
+	display:block;
+	margin:auto;
+}
+
+.center {
+	margin: auto;
+}
+
+.badge_code {
+	font-size: 1.5em;
+	width: fit-content;
+	margin: auto;
+}
+
+.badge_code span.badge {
+	letter-spacing: 0.2em;
+}
+
+.badge.little{
+	width: 2em;
+}
+
+i {
+	margin-right: 5%;
+}
+
+h2.feedback{
+	width: 90%;
+    margin: auto;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+div.mention {
+	height: 40px;
+	width: 80%;
+}
+
+div.mention span {
+	line-height: 40px;
+    font-weight: bold;
+}
+
+button.btn-circle {
+	border-radius: 1.5em;
+    width: 2.5em;
+    height: 2.5em;
+    margin: auto;
+}
+
+div.btn-circle {
+	display: flex;
+}
+
+.w-90 {
+	width: 90%;
+}
+
+input.deletable {
+	display: inline;
+}
+
+span.deletable {
+    margin-left: 2%;
+    font-size: 1.5em;
+}
+
+span.deletable i {
+    margin: 0;
+}
+
+span.badge {
+	min-width: 41px;
+}
+
+.gauge_satisfaction_item {
+	height:15px;
+	white-space: nowrap;
+	color:#ffffff;
+	padding:5px;
+}
+
+
+#code_fixed {
+	padding-top: 2em;
+	width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    background: white;
+}
+
+/************************************* Cards *************************************/
+
+.card h5 {
+
+    text-align: center;
+}
+
+.card .row {
+	justify-content: center;
+}
+
+.card .row > div {
+	min-width: 5em;
+}
+
+.card .mention span {
+	font-size:12px;
+	color:#000;
+}
+
+
+/******************************** Mentions colors ********************************/
+
+
+.rejected {background-color: #e4e4e4;}
+
+.insufficient{background-color: #ffcccc;}
+
+.acceptable{background-color: #ffffcd;}
+
+.pretty-good{background-color: #eaf4d6;}
+
+.good{background-color: #d3e7d3;}
+
+.very-good{background-color: #cde0cd;}
+
+
+
+.selected.rejected {background-color: #797979;}
+
+.selected.insufficient{background-color: #ff0101;}
+
+.selected.acceptable{background-color: #fdfd03;}
+
+.selected.pretty-good{background-color: #9ccd38;}
+
+.selected.good{background-color: #238a23;}
+
+.selected.very-good{background-color: #036503;}
